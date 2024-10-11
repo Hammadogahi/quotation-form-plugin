@@ -1,0 +1,134 @@
+/**
+*
+* The CSS File doesn't contain much code, but it does contain the styles for the HTML elements.
+*/
+
+#distance-form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#distance-form label {
+    margin-bottom: 5px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.proceed-btn {
+    text-decoration: none !important;
+    color: var(--e-global-color-primary);
+    background-color: var(--e-global-color-secondary);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px 35px 15px 35px;
+    font-family: var(--e-global-typography-5102c8b-font-family), Sans-serif;
+    font-size: var(--e-global-typography-5102c8b-font-size);
+    font-weight: var(--e-global-typography-5102c8b-font-weight);
+    line-height: var(--e-global-typography-5102c8b-line-height);
+    letter-spacing: var(--e-global-typography-5102c8b-letter-spacing);
+    word-spacing: var(--e-global-typography-5102c8b-word-spacing);
+
+}
+
+
+.data_fetched {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#price-result {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.two-cols {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.two-cols > div {
+    width: calc(50% - 10px);
+}
+
+.two-cols #timepicker {
+    width: 100%;
+}
+
+#distance-form select {
+	
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: var(--e-global-typography-text-line-height);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-47c55f0);
+    border-radius: 6px 6px 6px 6px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+.proceed-btn {
+    display: none;
+}
+
+.summary-row > .label {
+    width: 150px;
+}
+
+.form-details-step-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-details-step-2 > div {
+    width: calc(50% - 10px);
+}
+
+#confirm-btn {
+   background-color: var(--e-global-color-primary);
+    padding: 15px 220px 15px 220px;
+    font-family: var(--e-global-typography-5102c8b-font-family), Sans-serif;
+    font-size: var(--e-global-typography-5102c8b-font-size);
+    font-weight: var(--e-global-typography-5102c8b-font-weight);
+    line-height: var(--e-global-typography-5102c8b-line-height);
+    color: var(--e-global-color-22cbe69);
+    border-style: none;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 7px 15px 0px rgba(65.99999999999999, 132.9999999999998, 244, 0);
+	margin-top:30px;
+	display:inline-block;
+
+}
+
+
+
+#distance-form #step-2, #distance-form #step-3 {
+    display: none;
+}
+
+.summary-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.summary {
+    margin-bottom: 20px;
+}
+
+.form-error {
+	margin-top:10px !important;
+	display:inline-block;
+	color: #FF3333;
+	font-weight:500;
+}
